@@ -27,7 +27,7 @@ github_username:  smashingpks
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: Cayman
+theme: minima
 gems:
   - jekyll-feed
 exclude:
