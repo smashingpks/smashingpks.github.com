@@ -1,0 +1,21 @@
+title: Never stop learning
+email: smashingpks@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I am an Android developer. This blog is to leave footage of my learning.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://smashingpks.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+github_username:  smashingpks
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+#theme: minima
+theme: minimal-mistakes-jekyll
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
