@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Never Stop Learning"
 title_separator          : "-"
 name                     : "smashingpks"
-description              : "I am an Android developer. This blog is to leave footage of my learning."
+description              : "I am an Android developer. This blog is to leave a footage of my learning."
 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 url                      : "https://smashingpks.github.io"
 # the subpath of your site, e.g. "/blog"
@@ -244,6 +244,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
