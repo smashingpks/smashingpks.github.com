@@ -6,6 +6,7 @@ categories: mac eclipse
 ---
 Macbook Pro Retina 모델에서 Eclipse를 이용해 개발하는 경우
 별다른 설정을 해주지 않았다면 에디터 상에서 폰트의 경계가 클리어 하지 않고 번지게 된다.
+
 > 사실 이 글은 2013년 3월에 작성한 내용인지라 지금 최신 버전의 Eclipse에서는 어찌 동작하는지 모르겠다.
 
 
