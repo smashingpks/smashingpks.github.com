@@ -4,7 +4,7 @@ title:  "Eclipse 에서 Retina font 사용하기(Mac)"
 date:   2017-01-31 10:06:20 +0900
 categories: mac eclipse
 ---
-Macbook Pro Retina 모델에서 Eclipse를 이용해 개발하는 경우
+Macbook Pro Retina 모델에서 Eclipse를 이용해 개발하는 경우 \\
 별다른 설정을 해주지 않았다면 에디터 상에서 폰트의 경계가 클리어 하지 않고 번지게 된다.
 <!--more-->
 
@@ -16,7 +16,7 @@ Macbook Pro Retina 모델에서 Eclipse를 이용해 개발하는 경우
 구글 신님에게 여쭈어 보니
 해결법이 [여기](http://4pcbr.com/topic/eclipse_processing_and_retina_displays_fonts_fix)에 나와 있었는데 어느새 404가 되어있다..
 
-아래와 같이 하면 된다.
+아무튼 retina font를 활성화 하려면 아래와 같이 하면 된다.
 
 * Finder 에서 Eclipse 가 설치된 디렉토리로 이동.
 * Eclipse 응용 프로그램 파일에서 우클릭.
