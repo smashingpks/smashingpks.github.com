@@ -23,21 +23,14 @@ TabActivity 대신 Fragment 를 사용하는 방법이 권장되지만
 {% highlight java %}
 tabHost.setOnTabChangedListener(new OnTabChangeListener() {
 
-
 	@Override
-
 	public void onTabChanged(String tabId) {
-
 		String tabTag = getTabHost().getCurrentTabTag();
 
 	     if (tabTag.equals(TAB_B)) {
-
 			BActivity bActivity = (BActivity)getLocalActivityManager().getActivity(tabTag);
-
 			bActivity.refreshUI(); // DB나 서버로 부터 UI업데이트
-
 		}
-
 	}
 });
 {% endhighlight %}
