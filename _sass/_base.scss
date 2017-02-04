@@ -93,11 +93,11 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
+  margin: 1.5em 1em 2em 0;
+  padding-left: 0.5em;
   padding-right: 1em;
   font-style: italic;
-  border-left: 0.25em solid $primary-color;
+  border-left: 0.25em solid $info-color;
 
   cite {
     font-style: italic;
@@ -139,7 +139,7 @@ figcaption > code,
 td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  font-size: $type-size-6;
+  font-size: $type-size-code;
   background: $code-background-color;
   border: 1px solid $lighter-gray;
   border-radius: $border-radius;
