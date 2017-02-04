@@ -20,7 +20,8 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus"# false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+# false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "disqus"
   disqus:
   # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
     shortname            : "smashingpks"
@@ -80,10 +81,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "smashingpks"
+  name             : "Donghyun Shin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Seoul"
+  bio              : "I am an amazing person. you are too."
+  location         :
   email            :
   uri              :
   bitbucket        :
