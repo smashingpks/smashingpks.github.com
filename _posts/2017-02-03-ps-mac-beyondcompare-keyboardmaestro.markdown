@@ -3,8 +3,9 @@ layout: single
 title:  "Compare anything using keyboard shortcut by Beyond Compare(Mac)"
 date:   2017-02-03 21:57:49 +0900
 categories: mac beyondcompare keyboardmaestro
+tags: [mac, beyond compare, keyboard maestro, tip, macro, shortcut]
 ---
-Beyond Compare를 윈도우 PC 시절부터 구매해서 열심히 잘 쓰고 있었는데\\
+[Beyond Compare](http://www.scootersoftware.com)를 윈도우 PC 시절부터 구매해서 열심히 잘 쓰고 있었는데\\
 어느날 맥용 버전이 출시된 것을 알고 감격의 눈물을 흘렸었다.
 
 <!--more-->
