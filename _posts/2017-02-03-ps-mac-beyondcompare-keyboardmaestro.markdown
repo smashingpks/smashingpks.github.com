@@ -24,7 +24,7 @@ tags: [mac, beyond compare, keyboard maestro, tip, macro, shortcut]
 
 >지금은 기억이 안나지만 설치 과정에서 뭔가 Finder extension 을 추가할거냐 물어봤던것 같기도 하고..
 
-<img src="http://127.0.0.1:4000/assets/bc-finder-extension.png" width="640
+<img src="/assets/bc-finder-extension.png" width="640
 ">
 
 체크가 안되어 있다면 위처럼 체크를 해주고 우측 끝 부분을 눌러서 단축키를 설정해줄 수도 있다.\\
