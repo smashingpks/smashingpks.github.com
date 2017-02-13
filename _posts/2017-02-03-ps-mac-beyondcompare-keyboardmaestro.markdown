@@ -30,7 +30,7 @@ tags: [mac, beyond compare, keyboard maestro, tip, macro, shortcut]
 체크가 안되어 있다면 위처럼 체크를 해주고 우측 끝 부분을 눌러서 단축키를 설정해줄 수도 있다.\\
 만약 단축키 설정 없이 위 그림처럼 해줬다면 무슨일이 일어나느냐?
 
-<img src="http://127.0.0.1:4000/assets/bc-finder-extension2.png" width="640
+<img src="/assets/bc-finder-extension2.png" width="640
 ">
 
 위 그림처럼 복수 파일을 파인더에서 선택한 경우 아까 시스템 환경설정 메뉴에서 봤던 옵션중 2가지가 노출이 된다.
@@ -58,7 +58,7 @@ tags: [mac, beyond compare, keyboard maestro, tip, macro, shortcut]
 아래 그림처럼 매크로를 만들면 단축키 하나로 모든것이 해결된다. \\
 파일이나 폴더를 하나만 선택하던 여러개를 선택하던 Beyond Compare 알아서 열어준다.
 
-<img src="http://127.0.0.1:4000/assets/bc-compare.png" width="640
+<img src="/assets/bc-compare.png" width="640
 ">
 
 사용한 action은 `Open the Finder Selection` 이고 이걸 추가하면 기본적으로 \\
