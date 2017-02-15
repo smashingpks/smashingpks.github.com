@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Android Studio Gradle Configurations"
-date:   2017-02-03 21:57:49 +0900
+date:   2017-02-15 16:58:36 +0900
 categories: android androidstudio
 tags: [android, android studio, gradle, configuration, product flavor, productflavor]
 ---
