@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "한글테스트"
 date:   2017-01-26 11:27:20 +0900
 categories: android
