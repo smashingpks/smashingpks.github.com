@@ -20,7 +20,8 @@ Product Flavor 기능을 이용하면 Source Set 에 대해서는 분리가 가�
 그러나 라이브러리 디렉토리는 Source Set 에 포함되지 않고, 임의로 libs 디렉토리를 각각 Flavor 디렉토리에 추가해도
 오류가 나거나 동작하지 않는다.
 
-이런 상황에서 Configurations 라는 것을 알게되었는데 이를 통해서 각각의 다른 라이브러리들을 flavor 별로 빌드가 가능하다고 한다.
+이런 상황에서 Configurations 라는 것을 알게되었는데 이를 통해서 각각의 다른 라이브러리들을 flavor 별로 빌드가 가능하다고 한다.\\
+(special thanks to 조모씨)
 
 [Android Developer](https://developer.android.com/studio/build/gradle-tips.html?hl=ko) 에 그 내용이 설명이 되어 있는데 항상 그렇듯이 자세하게는 안나와 있어서 감이 팍 오지 않는다.
 
