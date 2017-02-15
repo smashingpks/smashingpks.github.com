@@ -96,3 +96,33 @@ dependencies {
 이렇게 설정해 두고 BuildVariants 만 알맞은 놈으로 세팅한 후 build 를 하거나 generate apk 등을 수행하면 하나의 소스로 제조사 별 apk 를 생성할 수 있다.
 
 위의 설정에서 더 나아가서 만약 debug, release 빌드 타입에 따라서 추가적으로 다른 dependecy 를 설정하고 싶다면 configurations 에 build type을 추가하면 된다.
+(`sec_flavor`만 debug, release 로 분화시켜 보았다.)
+
+```groovy
+android {
+    ...
+
+    productFlavors{
+        sec_flavor{
+            minSdkVersion 17
+            targetSdkVersion 22
+        }
+        lge_flavor{
+            minSdkVersion 17
+            targetSdkVersion 23
+        }
+    }
+}
+
+configurations {
+    sec_flavorDebugCompile
+    sec_flavorReleaseCompile
+    lge_flavorCompile
+}
+
+dependencies {
+    sec_flavorDebugCompile fileTree(dir: 'sec_debug_libs', include: ['*.jar'])
+    sec_flavorReleaseCompile fileTree(dir: 'sec_release_libs', include: ['*.jar'])
+    lge_flavorCompile fileTree(dir: 'lge_libs', include: ['*.jar'])
+}
+```
