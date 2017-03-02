@@ -13,12 +13,25 @@ SSL혹은 TLS를 이용해서 Server <-> Android app 간 통신을 보호하고 
 
 SSL 통신 중에서도 Handshaking 은 크게 2가지 과정으로 이루어 지는데, 첫째는 신뢰해도 되는 서버인지 확인하는 과정이 있고 둘째로는 서버의 host name 인증을 진행한다.
 
-특정 서버와 앱이 HTTPS 통신을 하려면
+특정 서버와 앱이 HTTPS로 통신을 하려면 
 
 당연히 윈도우용 라이선스가 맥용 버전과 호환되지 않아 추가 구매를 해야했지만 그래도 너무도 익숙하고 편리하게 잘 사용하고 있는 프로그램이라서 망설임 없이 질렀다.
 
-**(여러분! 우리 모두 정품 소프트웨어 구매해서 씁시다!!)**
+**(워닝 텍스트)**
 {: .notice--warning}
+
+**(인포 텍스트)**
+{: .notice--info}
+
+**(프라이머리 텍스트)**
+{: .notice--primary}
+
+**(성공 텍스트)**
+{: .notice--success}
+
+**(데인저 텍스트)**
+{: .notice--danger}
+
 
  윈도우용의 경우 `개별 파일 혹은 폴더에서 우클릭해서 left, right를 지정` 해주거나\\
  윈도우 탐색기(Explorer)에서 선택한 `복수의 폴더 혹은 파일에서 우클릭해서 compare를 누르면` \\
@@ -29,13 +42,13 @@ SSL 통신 중에서도 Handshaking 은 크게 2가지 과정으로 이루어 �
 
 >지금은 기억이 안나지만 설치 과정에서 뭔가 Finder extension 을 추가할거냐 물어봤던것 같기도 하고..
 
-<img src="http://127.0.0.1:4000/assets/bc-finder-extension.png" width="640
+<img src="/assets/bc-finder-extension.png" width="640
 ">
 
 체크가 안되어 있다면 위처럼 체크를 해주고 우측 끝 부분을 눌러서 단축키를 설정해줄 수도 있다.\\
 만약 단축키 설정 없이 위 그림처럼 해줬다면 무슨일이 일어나느냐?
 
-<img src="http://127.0.0.1:4000/assets/bc-finder-extension2.png" width="640
+<img src="/assets/bc-finder-extension2.png" width="640
 ">
 
 위 그림처럼 복수 파일을 파인더에서 선택한 경우 아까 시스템 환경설정 메뉴에서 봤던 옵션중 2가지가 노출이 된다.
@@ -63,7 +76,7 @@ SSL 통신 중에서도 Handshaking 은 크게 2가지 과정으로 이루어 �
 아래 그림처럼 매크로를 만들면 단축키 하나로 모든것이 해결된다. \\
 파일이나 폴더를 하나만 선택하던 여러개를 선택하던 Beyond Compare 알아서 열어준다.
 
-<img src="http://127.0.0.1:4000/assets/bc-compare.png" width="640
+<img src="/assets/bc-compare.png" width="640
 ">
 
 사용한 action은 `Open the Finder Selection` 이고 이걸 추가하면 기본적으로 \\
