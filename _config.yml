@@ -7,6 +7,7 @@
 
 # Site Settings
 locale                   : "en"
+remote_theme: "mmistakes/minimal-mistakes"
 title                    : "Never Stop Learning"
 title_separator          : "-"
 name                     : "smashingpks"
