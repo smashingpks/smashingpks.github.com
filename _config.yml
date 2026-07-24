@@ -23,18 +23,18 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 words_per_minute         : 200
 comments:
 # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  provider               : "disqus"
+  provider               : "giscus"
   disqus:
   # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
     shortname            : "smashingpks"
   giscus:
-  # giscus.app 에서 생성한 값을 채운 뒤, 위 provider 를 "giscus" 로 바꾸면 활성화됨
-    repo_id              : # data-repo-id (giscus.app)
+    repo_id              : "MDEwOlJlcG9zaXRvcnk4MDAyMDYzNw=="
     category_name        : "Announcements"
-    category_id          : # data-category-id (giscus.app)
+    category_id          : "DIC_kwDOBMUEnc4DB3Cc"
     discussion_term      : "pathname"
     reactions_enabled    : "1"
-    theme                : "light"
+    theme                : "preferred_color_scheme"
+    input_position       : "top"
     lang                 : "ko"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
