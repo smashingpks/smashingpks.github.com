@@ -8,24 +8,27 @@
   html, body { background-color: #2b2b2b; color: #a9b7c6; }
   h1, h2, h3, h4, h5, h6,
   .page__title, .archive__item-title, .site-title { color: #dfe1e5; }
-  a, .page__content a, .archive__item-title a { color: #5394ec; }
-  a:visited { color: #8a9bd4; }
+  a, .page__content a { color: #6cb6d9; }
+  a:visited { color: #9db8cf; }
+  .archive__item-title a { color: #dfe1e5; }
+  .archive__subtitle { color: #9ba1a6; border-bottom-color: #3c3f41; }
 
-  /* 상단 내비 */
-  .masthead { border-bottom: 1px solid #3c3f41; }
-  .greedy-nav, .greedy-nav .hidden-links { background: #3c3f41; }
+  /* 상단 내비 — 배경을 본문과 같게(박스처럼 안 뜨게), 아래 얇은 구분선만 */
+  .masthead { background-color: #2b2b2b; border-bottom: 1px solid #3c3f41; }
+  .greedy-nav { background: #2b2b2b; }
+  .greedy-nav .hidden-links { background: #3c3f41; }
   .greedy-nav a { color: #a9b7c6; }
-  .greedy-nav .visible-links a:before { background: #5394ec; }
+  .greedy-nav .visible-links a:before { background: #6cb6d9; }
   .greedy-nav__toggle .navicon,
   .greedy-nav__toggle .navicon:before,
   .greedy-nav__toggle .navicon:after { background: #a9b7c6; }
   .site-title, .masthead__menu-item a { color: #dfe1e5; }
 
   /* 본문 요소 */
-  blockquote { border-left-color: #5394ec; color: #9aa7b0; }
+  blockquote { border-left-color: #6cb6d9; color: #9aa7b0; }
   hr { border-color: #3c3f41; }
   .notice { background-color: #3c3f41 !important; color: #a9b7c6; box-shadow: none; }
-  .notice a { color: #5394ec; }
+  .notice a { color: #6cb6d9; }
   table { color: #a9b7c6; }
   th { background-color: #3c3f41; }
   td, th { border-color: #3c3f41; }
@@ -44,13 +47,20 @@
   details summary { color: #a9b7c6; }
 
   /* === 코드 (Darcula) === */
+  /* 인라인 코드 */
   code, a > code, li > code, figcaption > code, td > code {
     background-color: #3c3f41 !important; border-color: #4b4b4b; color: #a9b7c6;
   }
-  pre, div.highlight, figure.highlight, .highlight {
-    background-color: #2b2b2b !important; border-color: #4e5254; color: #a9b7c6;
+  /* 코드 블록: 바깥 래퍼에만 배경·테두리 (중첩 테두리 방지) */
+  div.highlighter-rouge, figure.highlight {
+    background-color: #2b2b2b !important; border-color: #4e5254;
   }
-  .highlight pre, .highlight code { background: transparent !important; }
+  div.highlighter-rouge:before, figure.highlight:before {
+    background-color: #3c3f41; color: #808080;
+  }
+  div.highlight, .highlight, .highlight pre, pre.highlight, .highlight code {
+    background: transparent !important; border: 0 !important; color: #a9b7c6;
+  }
 
   /* Darcula 토큰 색 */
   .highlight .n, .highlight .nb, .highlight .bp, .highlight .nc, .highlight .ne,
