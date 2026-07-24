@@ -2,4 +2,77 @@
 
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
 
+<!-- 시스템 다크모드 자동 대응 (prefers-color-scheme) — Darcula 팔레트 -->
+<style>
+@media (prefers-color-scheme: dark) {
+  html, body { background-color: #2b2b2b; color: #a9b7c6; }
+  h1, h2, h3, h4, h5, h6,
+  .page__title, .archive__item-title, .site-title { color: #dfe1e5; }
+  a, .page__content a, .archive__item-title a { color: #5394ec; }
+  a:visited { color: #8a9bd4; }
+
+  /* 상단 내비 */
+  .masthead { border-bottom: 1px solid #3c3f41; }
+  .greedy-nav, .greedy-nav .hidden-links { background: #3c3f41; }
+  .greedy-nav a { color: #a9b7c6; }
+  .greedy-nav .visible-links a:before { background: #5394ec; }
+  .greedy-nav__toggle .navicon,
+  .greedy-nav__toggle .navicon:before,
+  .greedy-nav__toggle .navicon:after { background: #a9b7c6; }
+  .site-title, .masthead__menu-item a { color: #dfe1e5; }
+
+  /* 본문 요소 */
+  blockquote { border-left-color: #5394ec; color: #9aa7b0; }
+  hr { border-color: #3c3f41; }
+  .notice { background-color: #3c3f41 !important; color: #a9b7c6; box-shadow: none; }
+  .notice a { color: #5394ec; }
+  table { color: #a9b7c6; }
+  th { background-color: #3c3f41; }
+  td, th { border-color: #3c3f41; }
+  tr:nth-child(2n) { background-color: #313335; }
+
+  /* 사이드바 작성자 정보 */
+  .author__urls { background: #3c3f41; border-color: #4b4b4b; }
+  .author__urls:before, .author__urls:after { display: none; }
+  .author__bio, .author__name { color: #a9b7c6; }
+
+  /* 푸터 */
+  .page__footer { background-color: #313335; border-top-color: #3c3f41; color: #808080; }
+  .page__footer a { color: #808080; }
+
+  /* 접기 블록 */
+  details summary { color: #a9b7c6; }
+
+  /* === 코드 (Darcula) === */
+  code, a > code, li > code, figcaption > code, td > code {
+    background-color: #3c3f41 !important; border-color: #4b4b4b; color: #a9b7c6;
+  }
+  pre, div.highlight, figure.highlight, .highlight {
+    background-color: #2b2b2b !important; border-color: #4e5254; color: #a9b7c6;
+  }
+  .highlight pre, .highlight code { background: transparent !important; }
+
+  /* Darcula 토큰 색 */
+  .highlight .n, .highlight .nb, .highlight .bp, .highlight .nc, .highlight .ne,
+  .highlight .ni, .highlight .nl, .highlight .nn, .highlight .nx, .highlight .py,
+  .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .p,
+  .highlight .o, .highlight .w, .highlight .g, .highlight .l, .highlight .ld,
+  .highlight .na, .highlight .err, .highlight .gt, .highlight .go, .highlight .gp { color: #a9b7c6; }
+  .highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp,
+  .highlight .kr, .highlight .kt, .highlight .kv, .highlight .ow { color: #cc7832; }
+  .highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl,
+  .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si,
+  .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: #6a8759; }
+  .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi,
+  .highlight .mo, .highlight .il { color: #6897bb; }
+  .highlight .c, .highlight .ch, .highlight .cm, .highlight .c1, .highlight .cs,
+  .highlight .cp, .highlight .cpf { color: #808080; font-style: italic; }
+  .highlight .nf, .highlight .fm { color: #ffc66d; }
+  .highlight .nd { color: #bbb529; }
+  .highlight .no { color: #9876aa; }
+  .highlight .gi { color: #6a8759; }
+  .highlight .gd { color: #cc7832; }
+}
+</style>
+
 <!-- end custom head snippets -->
