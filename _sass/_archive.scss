@@ -83,17 +83,7 @@
    ========================================================================== */
 
 .list__item {
-  @include breakpoint($medium) {
-    padding-right: $right-sidebar-width-narrow;
-  }
-
-  @include breakpoint($large) {
-    padding-right: $right-sidebar-width;
-  }
-
-  @include breakpoint($x-large) {
-    padding-right: $right-sidebar-width-wide;
-  }
+  /* 목록 페이지엔 오른쪽 사이드바가 없어서 그 자리를 비워둘 필요가 없음 */
 
   .page__meta {
     margin: 0 0 4px;
